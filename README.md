@@ -85,13 +85,13 @@ python transfer.py --option_unpool cat5 -a --content ./examples/content --style 
 <img src="./figures/results.png" width="1000" title="results"> 
 
 ## Acknowledgement
-* Our torch implementation is highly inspired from NVIDIA's PhotoWCT [Code](https://github.com/NVIDIA/FastPhotoStyle).
+* Our implementation is highly inspired from NVIDIA's PhotoWCT [Code](https://github.com/NVIDIA/FastPhotoStyle).
 
 ## Citation
 If you find this work useful for your research, please cite:
 ```
 @article{yoo2019toward,
-  title={Toward Hyper-Realism: Photorealistic Style Transfer via Wavelet Transforms},
+  title={Photorealistic Style Transfer via Wavelet Transforms},
   author={Jaejun Yoo, ...},
   journal={arXiv preprint arXiv:XXX},
   year={2019}
