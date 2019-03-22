@@ -19,7 +19,7 @@ The code was written by [Jaejun Yoo](https://github.com/jaejun-yoo), [Sanghyuk C
 
 ## Getting Started
 ### Dependency
-- Over PyTorch 0.4.1
+- PyTorch >= 0.4.1
 - Check the requirements.txt
 ```bash
 pip install -r requirements.txt
