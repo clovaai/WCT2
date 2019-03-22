@@ -27,7 +27,7 @@ pip install -r requirements.txt
 ### Installation
 - Clone this repo:
 ```bash
-git clone https://github.com/jaejun-yoo/WCT2
+git clone https://github.com/clovaai/WCT2.git
 cd WCT2
 ```
 * Pretrained models can be found in the `./model_checkpoints`
