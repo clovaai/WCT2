@@ -12,7 +12,7 @@
  
 Clova AI Research, NAVER (* equal contributions)  
  
-PyTorch implementation for photorealistic style transfer that does **not need** any further post-processing steps; e.g. from day to sunset, from summer to winter, etc.
+PyTorch implementation for photorealistic style transfer that does **not need any further post-processing steps**; e.g. from day to sunset, from summer to winter, etc.
 
 The code was written by [Jaejun Yoo](https://github.com/jaejun-yoo), [Sanghyuk Chun](http://github.com/SanghyukChun), [Youngjung Uh](https://github.com/youngjung), and [Byeongkyu Kang](https://github.com/KangBK0120).  
 <img src="./figures/teaser.png" width="1000" title="Teaser results"> 
@@ -88,7 +88,7 @@ python transfer.py --option_unpool cat5 -a --content ./examples/content --style 
 * Our implementation is highly inspired from NVIDIA's PhotoWCT [Code](https://github.com/NVIDIA/FastPhotoStyle).
 
 ## Citation
-If you find this work useful for your research, please cite:
+If you find this work useful for your research, please cite (will be updated soon):
 ```
 @article{yoo2019toward,
   title={Photorealistic Style Transfer via Wavelet Transforms},
