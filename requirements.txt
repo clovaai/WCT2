@@ -1,0 +1,5 @@
+torch==0.4.1.post2
+torchvision==0.2.0
+tqdm==4.21.0
+numpy==1.14.2
+Pillow==5.4.1
