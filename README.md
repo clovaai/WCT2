@@ -90,11 +90,11 @@ python transfer.py --option_unpool cat5 -a --content ./examples/content --style 
 ## Citation
 If you find this work useful for your research, please cite (will be updated soon):
 ```
-@article{yoo2019toward,
-  title={Photorealistic Style Transfer via Wavelet Transforms},
-  author={Jaejun Yoo, ...},
-  journal={arXiv preprint arXiv:XXX},
-  year={2019}
+@article{yoo2019photo,
+Author = {Jaejun Yoo and Youngjung Uh and Sanghyuk Chun and Byeongkyu Kang and Jung-Woo Ha},
+Title = {Photorealistic Style Transfer via Wavelet Transforms},
+Year = {2019},
+Eprint = {arXiv:1903.09760},
 }
 ```
 
