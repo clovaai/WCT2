@@ -7,7 +7,7 @@
 
 
 # WCT2
-[Photorealistic Style Transfer via Wavelet Transforms](https://XXX/)  
+[Photorealistic Style Transfer via Wavelet Transforms](https://arxiv.org/abs/1903.09760)  
  [Jaejun Yoo](mailto:jaejun.yoo@navercorp.com)\*,  [Sanghyuk Chun](mailto:sanghyuk.c@navercorp.com)\*, [Youngjung Uh](mailto:youngjung.uh@navercorp.com)\*, [Byeonkyu Kang](mailto:lejkbk0930@gmail.com), [Jung-Woo Ha](mailto:jungwoo.ha@navercorp.com)
  
 Clova AI Research, NAVER (* equal contributions)  
