@@ -37,6 +37,7 @@ cd WCT2
   - Images can be found in [DPST repo](https://github.com/luanfujun/deep-photo-styletransfer)
   - To make a new dataset with label pairs, please follow the instruction of [PhotoWCT repo](https://github.com/NVIDIA/FastPhotoStyle/blob/master/TUTORIAL.md)
   - Put the content and style images with their segment label pairs (if available) into the `example` folder accordingly. Currently there are several example images from [DPST repo](https://github.com/luanfujun/deep-photo-styletransfer).
+  - You can find the entire content and style images (with paired segmentation label maps) in the following link [DPST images](https://github.com/luanfujun/deep-photo-styletransfer/tree/master/examples).  **input** folder has the content images and the **style**  folder has the style images. Every segmention map can be found in the **segmentation** folder.
 - Finally, test the model:
 ```bash
 python transfer.py --option_unpool cat5 -a --content ./examples/content --style ./examples/style --content_segment ./examples/content_segment --style_segment ./examples/style_segment/ --output ./outputs/ --verbose --image_size 512 
