@@ -15,7 +15,7 @@ Clova AI Research, NAVER (* equal contributions)
  
 PyTorch implementation for photorealistic style transfer that does **not need any further post-processing steps**; e.g. from day to sunset, from summer to winter, etc. This is the first end-to-end model that can stylize 1024×1024 resolution image in 4.7 seconds, giving a pleasing and photorealistic quality without any post-processing.
 
-The code was written by [Jaejun Yoo](https://github.com/jaejun-yoo), [Sanghyuk Chun](http://github.com/SanghyukChun), [Youngjung Uh](https://github.com/youngjung), and [Byeongkyu Kang](https://github.com/KangBK0120).  
+The code was written by [Jaejun Yoo](https://github.com/jaejun-yoo) and [Byeongkyu Kang](https://github.com/KangBK0120).  
 <img src="./figures/teaser.png" width="1000" title="Teaser results"> 
 
 ## Getting Started
