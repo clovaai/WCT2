@@ -67,6 +67,8 @@ The test results will be saved to `./outputs` by default.
 * DPST: "Deep Photo Style Transfer" | [Paper](https://arxiv.org/abs/1802.06474) | [Code](https://github.com/luanfujun/deep-photo-styletransfer)
 * PhotoWCT: "A Closed-form Solution to Photorealistic Image Stylization" | [Paper](https://arxiv.org/abs/1703.07511) | [Code](https://github.com/NVIDIA/FastPhotoStyle)
 * PhotoWCT (full): PhotoWCT + post processing
+### Schematic illustration of our wavelet module
+<img src="./figures/net_archi_haar2.png" width="1000" title="wavelet module"> 
 
 ### Component-wise Stylization
 * Only for `option_unpool = sum` version
