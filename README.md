@@ -9,7 +9,7 @@
 # WCT2
 Photorealistic Style Transfer via Wavelet Transforms | [paper](https://arxiv.org/abs/1903.09760) | [supplementary materials](https://github.com/clovaai/WCT2/blob/master/%5Bsupplementary%20materials%5D%20Photorealistic_Style_Transfer_via_Wavelet_Transforms.pdf) | [video stylization results](https://youtu.be/o-AgHt1VA30)
 
- [Jaejun Yoo](mailto:jaejun.yoo@navercorp.com)\*,  [Sanghyuk Chun](mailto:sanghyuk.c@navercorp.com)\*, [Youngjung Uh](mailto:youngjung.uh@navercorp.com)\*, [Byeonkyu Kang](mailto:lejkbk0930@gmail.com), [Jung-Woo Ha](mailto:jungwoo.ha@navercorp.com)
+ [Jaejun Yoo](mailto:jaejun.yoo@navercorp.com)\*,  [Youngjung Uh](mailto:youngjung.uh@navercorp.com)\*, [Sanghyuk Chun](mailto:sanghyuk.c@navercorp.com)\*, [Byeonkyu Kang](mailto:lejkbk0930@gmail.com), [Jung-Woo Ha](mailto:jungwoo.ha@navercorp.com)
  
 Clova AI Research, NAVER (* equal contributions)  
  
