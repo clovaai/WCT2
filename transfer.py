@@ -33,6 +33,16 @@ from utils.core import feature_wct
 from utils.io import Timer, open_image, load_segment, compute_label_info
 
 
+IMG_EXTENSIONS = [
+    '.jpg', '.JPG', '.jpeg', '.JPEG',
+    '.png', '.PNG',
+]
+
+
+def is_image_file(filename):
+    return any(filename.endswith(extension) for extension in IMG_EXTENSIONS)
+
+
 class WCT2:
     def __init__(self, model_path='./model_checkpoints', transfer_at=['encoder', 'skip', 'decoder'], option_unpool='cat5', device='cuda:0', verbose=False):
 
@@ -141,8 +151,8 @@ def run_bulk(config):
         fnames &= set(os.listdir(config.style_segment))
 
     for fname in tqdm.tqdm(fnames):
-        if not fname.endswith('.png'):
-            print('invalid file (should end with .png), ', fname)
+        if not is_image_file(fname):
+            print('invalid file (is not image), ', fname)
             continue
         _content = os.path.join(config.content, fname)
         _style = os.path.join(config.style, fname)
