@@ -6,7 +6,7 @@
 
 
 
-# WCT2
+# WCT2 (ICCV 2019 accepted) 
 Photorealistic Style Transfer via Wavelet Transforms | [paper](https://arxiv.org/abs/1903.09760) | [supplementary materials](https://github.com/clovaai/WCT2/blob/master/%5Bsupplementary%20materials%5D%20Photorealistic_Style_Transfer_via_Wavelet_Transforms.pdf) | [video stylization results](https://youtu.be/o-AgHt1VA30)
 
  [Jaejun Yoo](mailto:jaejun.yoo@navercorp.com)\*,  [Youngjung Uh](mailto:youngjung.uh@navercorp.com)\*, [Sanghyuk Chun](mailto:sanghyuk.c@navercorp.com)\*, [Byeonkyu Kang](mailto:lejkbk0930@gmail.com), [Jung-Woo Ha](mailto:jungwoo.ha@navercorp.com)
@@ -93,7 +93,7 @@ python transfer.py --option_unpool cat5 -a --content ./examples/content --style 
 * Our implementation is highly inspired from NVIDIA's PhotoWCT [Code](https://github.com/NVIDIA/FastPhotoStyle).
 
 ## Citation
-If you find this work useful for your research, please cite:
+If you find this work useful for your research, please cite (we will soon change this to the official ICCV version:
 ```
 @article{yoo2019photorealistic,
   title={Photorealistic Style Transfer via Wavelet Transforms},
