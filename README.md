@@ -98,7 +98,7 @@ If you find this work useful for your research, please cite:
 @inproceedings{yoo2019photorealistic,  
   title={Photorealistic Style Transfer via Wavelet Transforms},
   author={Yoo, Jaejun and Uh, Youngjung and Chun, Sanghyuk and Kang, Byeongkyu and Ha, Jung-Woo},
-  journal={arXiv preprint arXiv:1903.09760},
+  booktitle = {International Conference on Computer Vision (ICCV)},
   year={2019}
 }
 ```
