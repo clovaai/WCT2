@@ -93,9 +93,9 @@ python transfer.py --option_unpool cat5 -a --content ./examples/content --style 
 * Our implementation is highly inspired from NVIDIA's PhotoWCT [Code](https://github.com/NVIDIA/FastPhotoStyle).
 
 ## Citation
-If you find this work useful for your research, please cite (we will soon change this to the official ICCV version:
+If you find this work useful for your research, please cite:
 ```
-@article{yoo2019photorealistic,
+@inproceedings{yoo2019photorealistic,  
   title={Photorealistic Style Transfer via Wavelet Transforms},
   author={Yoo, Jaejun and Uh, Youngjung and Chun, Sanghyuk and Kang, Byeongkyu and Ha, Jung-Woo},
   journal={arXiv preprint arXiv:1903.09760},
