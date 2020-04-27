@@ -163,12 +163,13 @@ def run_bulk(config):
         content = open_image(_content, config.image_size).to(device)
         style = open_image(_style, config.image_size).to(device)
         content_segment = load_segment(_content_segment, config.image_size)
-        style_segment = load_segment(_style_segment, config.image_size)
-
+        style_segment = load_segment(_style_segment, config.image_size)     
+        _, ext = os.path.splitext(fname)
+        
         if not config.transfer_all:
             with Timer('Elapsed time in whole WCT: {}', config.verbose):
                 postfix = '_'.join(sorted(list(transfer_at)))
-                fname_output = _output.replace('.png', '_{}_{}.png'.format(config.option_unpool, postfix))
+                fname_output = _output.replace(ext, '_{}_{}.{}'.format(config.option_unpool, postfix, ext))
                 print('------ transfer:', _output)
                 wct2 = WCT2(transfer_at=transfer_at, option_unpool=config.option_unpool, device=device, verbose=config.verbose)
                 with torch.no_grad():
@@ -178,7 +179,7 @@ def run_bulk(config):
             for _transfer_at in get_all_transfer():
                 with Timer('Elapsed time in whole WCT: {}', config.verbose):
                     postfix = '_'.join(sorted(list(_transfer_at)))
-                    fname_output = _output.replace('.png', '_{}_{}.png'.format(config.option_unpool, postfix))
+                    fname_output = _output.replace(ext, '_{}_{}.{}'.format(config.option_unpool, postfix, ext))
                     print('------ transfer:', fname)
                     wct2 = WCT2(transfer_at=_transfer_at, option_unpool=config.option_unpool, device=device, verbose=config.verbose)
                     with torch.no_grad():
